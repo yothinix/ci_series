@@ -13,9 +13,8 @@ class site extends CI_Controller {
         $this->load->model('data_model');
         $data['rows'] = $this->data_model->getAll();
         $this->load->view('home', $data);
-
-
-        //$this->load->model('site_model');
+	
+	//$this->load->model('site_model');
         //$data['records'] = $this->site_model->getAll();
         //$this->load->view('home', $data);
     }
@@ -23,5 +22,4 @@ class site extends CI_Controller {
     function about(){
         $this->load->view('about');
     }
-
 }
