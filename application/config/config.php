@@ -16,6 +16,7 @@
 */
 $config['base_url']	= 'http://localhost/adwise/index.php/';
 
+$config['server_root'] = $_SERVER['DOCUMENT_ROOT']; 
 /*
 |--------------------------------------------------------------------------
 | Index File
