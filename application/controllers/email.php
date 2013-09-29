@@ -25,7 +25,6 @@ class Email extends CI_Controller
         {
             echo 'Your email was send, fool.';
         }
-
         else
         {
             show_error($this->email->print_debugger());
