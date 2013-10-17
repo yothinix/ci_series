@@ -1,0 +1,38 @@
+label {
+    display: black;
+}
+
+.error {
+color: #373737;
+font-style: italic;
+}
+
+#newsletter_form {
+background: #e3e3e3;
+width: 20%;
+margin: 5em auto 0;
+padding: 32px;
+border: 1px solid #d5d5d5;
+}
+
+#newsletter_form form input[type=text] {
+width: 100%;
+}
+
+h2 {
+margin-top: -54px;
+color: #aa2828;
+font-family: arial;
+}
+
+input[type=submit] {
+border: 1px solid #c628628;
+background: #aa2828;
+color: #e3e3e3;
+padding: .5em;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background: #9a2222;
+}
