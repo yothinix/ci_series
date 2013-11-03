@@ -1,5 +1,5 @@
 body {
-    background: #b6b6b6;
+    /*background: #b6b6b6;*/
     margin: 0;
     padding: 0;
     font-family: arial;
@@ -74,3 +74,45 @@ h1 {
     width: 100%;
     padding: .7em .7em .7em 2em;
 }
+
+$container {
+    width: 600px;
+    margin: auto;
+}
+
+table {
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+td {
+    border-right: 1px solid #aaaaaa;
+    padding: 1em;
+}
+
+td:last-child {
+    border-right: none;
+}
+
+th {
+    text-align: left;
+    padding-left: 1em;
+    background: $cac9c9;
+    border-bottom: 1px solid white;
+    border-right: 1px solid #aaaaaa;
+}
+
+#pagination a, #pagination strong{
+    background: #e3e3e3;
+    padding: 4px 7px;
+    text-decoration: none;
+    border: 1px solid #cac9c9;
+    color: #292929;
+    font-size: 13px;
+}
+
+#pagination strong, #pagination a:hover {
+    font-weight: normal;
+    background: #cac9c9;
+}
+
